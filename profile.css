@@ -1,0 +1,68 @@
+body
+{
+		margin: 0px;
+		padding: 0px;
+		background: url(back.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+}
+.container
+{
+	height: 500px;
+	width: 40%;
+	background: rgba(0,0,0,0.5);
+	color: #fff;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	border-radius: 20px;
+	float: right;
+	margin-top: 25%;
+	margin-left: 50%;
+	margin-right: 10%;
+}
+
+#submit1 input[type="submit"]
+{
+	position: absolute;
+	border: none;
+	background-color: #D81FCD;
+	border-radius: 15px;
+	width: 30%;
+	height: 40px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-top: -10%;
+
+}
+#submit2 input[type="submit"]
+{
+	position: absolute;
+	border: none;
+	background-color: #D81FCD;
+	border-radius: 15px;
+	width: 30%;
+	height: 40px;
+	margin-bottom: 10px;
+	font-weight: bold;
+	font-family: sans-serif;
+	margin-top: 10%;
+
+}
+#select
+{
+		position: absolute;
+		border: none;
+		background: transparent;
+		height: 40px;
+		width: 40%;
+		color: #fff;
+		font-size: 20px;
+		margin-bottom: -10px;
+		border-radius: 15px;
+}
+
+.all
+{
+	margin-top: 30%;
+}

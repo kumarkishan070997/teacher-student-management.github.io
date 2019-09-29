@@ -1,0 +1,106 @@
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background: url(back.jpg);
+		background-attachment: fixed;
+		background-size: cover;
+	}
+	.form
+	{
+		width: 27%;
+		height: 60%;
+		background: rgba(0,0,0,0.5);
+		color: #fff;
+		transform: translate(-50%,-50%);
+		box-sizing: border-box;
+		border-radius: 20px;
+		float: right;
+		margin-top: 20%;
+		margin-right: 22%;
+
+
+	}
+	.formcontent input[type="E-mail"],.formcontent input[type="password"]
+	{
+		margin-top: -30px;
+		border: none;
+		border-bottom: 1px solid #fff;
+		background: transparent;
+		height: 40px;
+		width: 90%;
+		color: #fff;
+		font-size: 20px;
+		margin-bottom: -10px;
+		transition: 2s linear;
+	}
+	.formcontent
+	{
+		margin-left: 5%;
+	}
+	.submit
+	{
+		margin-top: 10px;
+		padding:30px;
+	}
+	.submit input[type="submit"]
+	{
+		position: absolute;
+		border: none;
+		background-color: #71A9DE;
+		border-radius: 15px;
+		width: 30%;
+		height: 40px;
+		margin-left: 20%;
+		margin-right: 28%;
+		margin-bottom: 10px;
+		font-weight: bold;
+		font-family: sans-serif;
+	}
+	input[type="text"]
+	{
+		margin-top: -30px;
+		border: none;
+		border-bottom: 1px solid #fff;
+		background: transparent;
+		height: 40px;
+		width: 90%;
+		color: #fff;
+		font-size: 20px;
+		margin-bottom: -10px;
+		transition: 2s linear;
+	}
+	#select
+	{
+		margin-top: -30px;
+		border: none;
+		border-bottom: 1px solid #fff;
+		background: transparent;
+		height: 40px;
+		width: 90%;
+		color: #fff;
+		font-size: 20px;
+		margin-bottom: -10px;
+		transition: 2s linear;
+		border-radius: 15px;
+	}
+	a
+	{
+		text-decoration: none;
+		font-size: 18px;
+		margin-bottom: 20px;
+		margin-top: -10px;
+
+	}
+	a:hover
+	{
+		color: #DD521C;
+	}
+	.formcontent input[type="E-mail"],.formcontent input[type="password"],.formcontent input[type="text"]:hover
+	{
+		color: #679BF0;
+	}
+	h2
+	{
+		font-family: sans-serif;
+	}
